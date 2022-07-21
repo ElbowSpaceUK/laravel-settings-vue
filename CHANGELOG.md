@@ -7,10 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [v0.1.1]
+## [v0.1.2]
 
 ### Fixed
 - Bug with settings loading on page load
+
+## [v0.1.1]
+
+### Fixed
+- axios version constraints for npm
 
 ## [v0.1]
 
