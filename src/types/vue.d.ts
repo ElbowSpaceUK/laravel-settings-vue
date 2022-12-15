@@ -1,4 +1,3 @@
-import Vue from 'vue';
 import { SettingType } from '../core/settings';
 import { Settings } from './core';
 import { Axios } from 'axios';

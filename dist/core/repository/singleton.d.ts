@@ -6,7 +6,7 @@ declare class Singleton implements Repository {
     }[];
     private static instance;
     private constructor();
-    onSettingUpdated(callback: (key: string, value: any) => void): void;
+    onSettingUpdated(callback: (key: any, value: any) => void): void;
     getSettings(): ESSettings;
     getSetting(key: string): any;
     hasSetting(key: string): boolean;

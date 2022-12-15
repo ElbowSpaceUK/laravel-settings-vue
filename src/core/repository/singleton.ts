@@ -10,7 +10,7 @@ class Singleton implements Repository {
         this.settings = {};
     }
 
-    onSettingUpdated(callback: (key: string, value: any) => void): void {
+    onSettingUpdated(callback: (key: any, value: any) => void): void {
         this.onUpdate.push(callback);
     }
 

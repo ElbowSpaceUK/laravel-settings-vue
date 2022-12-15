@@ -1,6 +1,6 @@
 {
     "name": "@elbowspaceuk/laravel-settings-vue",
-    "version": "0.0.1",
+    "version": "0.1.2",
     "description": "A Vue integration for the Laravel Settings package",
     "main": "dist/index.js",
     "keywords": [
@@ -54,14 +54,13 @@
         "ts-node": "^10.5.0",
         "tslint": "^6.1.3",
         "tslint-config-prettier": "^1.18.0",
-        "typescript": "^4.5.5",
-        "vue": "^2.6.14"
+        "typescript": "^4.5.5"
     },
     "peerDependencies": {
         "axios": "*",
-        "vue": "^2.0"
+        "vue": "^2.7.0"
     },
     "dependencies": {
-        "vue": "^2.0"
+        "vue": "^2.7.0"
     }
 }

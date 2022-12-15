@@ -3,8 +3,10 @@ import {Settings} from "../../../src/core/settings";
 import Singleton from "../../../src/core/repository/singleton";
 import axios from 'axios';
 
+jest.mock("axios");
+
 it('makes a request to set a value', async () => {
-    let settings = new Settings(Singleton.getInstance(), mockedAxios);
+    let settings = new Settings(Singleton.getInstance(), axios);
     settings.setValue('dark_mode', false);
 
     await new Promise(process.nextTick);

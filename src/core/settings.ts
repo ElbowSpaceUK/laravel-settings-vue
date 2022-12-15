@@ -1,5 +1,3 @@
-import Vue from 'vue';
-
 import { Repository } from '../types/core';
 import Singleton from './repository/singleton';
 import { Axios, AxiosError, AxiosResponse } from 'axios';
